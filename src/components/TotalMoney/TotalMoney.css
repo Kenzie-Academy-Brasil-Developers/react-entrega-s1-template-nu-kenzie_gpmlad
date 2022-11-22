@@ -1,0 +1,12 @@
+.totalCard{
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.totalCard p{
+  color: var(--primary-color-1);
+}

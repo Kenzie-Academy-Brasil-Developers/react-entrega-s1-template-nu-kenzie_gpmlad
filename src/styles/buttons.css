@@ -1,0 +1,31 @@
+.buttonLarge {
+  border-radius: 8px;
+  padding: 13px 20px;
+  background-color: var(--primary-color-1);
+  border: none;
+  color: white;
+}
+
+.buttonSmall {
+  border-radius: 8px;
+  padding: 15px;
+  background-color: var(--primary-color-1);
+  border: none;
+  color: white;
+}
+
+.buttonLarge:hover,
+.buttonSmall:hover {
+  background-color: var(--primary-color-2);
+  color: var(--color-gray-1);
+}
+
+.buttonGray{
+  color: var(--color-gray-4);
+  background-color: var(--color-gray-2);
+}
+
+.buttonGray:hover{
+  background-color: var(--color-gray-4);
+  color: white;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.title-2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title-3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title-4 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.regular {
+  font-size: 12px;
+  font-weight: 400;
+}
