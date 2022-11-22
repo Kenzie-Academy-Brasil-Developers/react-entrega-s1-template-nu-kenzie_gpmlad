@@ -21,3 +21,9 @@
   flex-direction: column;
   gap: 36px;
 }
+
+@media(max-width: 400px){
+  .List{
+    flex-direction: column ;
+  }
+}

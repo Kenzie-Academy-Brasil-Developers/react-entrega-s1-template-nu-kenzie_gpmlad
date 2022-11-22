@@ -16,3 +16,11 @@
 }
 
 
+@media(max-width: 1000px){
+  .mainHome{
+    flex-direction: column;
+  }
+  .leftHome{
+    width: 100%;
+  }
+}

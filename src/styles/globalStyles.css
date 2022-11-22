@@ -17,6 +17,8 @@
 .container {
   max-width: 1300px;
   margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .boxShadow {
@@ -33,4 +35,11 @@
 
 .col{
   flex-direction: column;
+}
+
+@media(max-width:810px){
+  .container{
+    padding-left: 15px;
+  padding-right: 15px;
+  }
 }

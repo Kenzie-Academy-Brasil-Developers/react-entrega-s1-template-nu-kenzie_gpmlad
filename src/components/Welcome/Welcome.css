@@ -18,3 +18,9 @@ main{
 .left img{
   width: 123px;
 }
+
+@media(max-width: 1000px){
+  .right{
+    display: none ;
+  }
+}

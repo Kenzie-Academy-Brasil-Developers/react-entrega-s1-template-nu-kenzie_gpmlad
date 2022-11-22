@@ -19,7 +19,7 @@ export function Welcome({setUserPage}) {
         <button className='buttonLarge' onClick={changeUserPageToTrue} type="button">Iniciar</button>
       </div>
 
-      <div>
+      <div className='right'>
         <img src={illustration} alt="Imagem" />
       </div>
     </main>

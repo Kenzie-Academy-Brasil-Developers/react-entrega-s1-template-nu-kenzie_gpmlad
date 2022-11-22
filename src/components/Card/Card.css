@@ -53,3 +53,9 @@ button{
 .colorOut{
   background-color: var(--color-gray-2);
 }
+
+@media(max-width: 400px){
+  .cardRight{
+    width: 40%;
+  }
+}
