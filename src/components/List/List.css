@@ -29,6 +29,6 @@
 @media(max-width: 400px){
   .List{
     flex-direction: column ;
-    gap: 26px;
+    gap: 29px;
   }
 }
