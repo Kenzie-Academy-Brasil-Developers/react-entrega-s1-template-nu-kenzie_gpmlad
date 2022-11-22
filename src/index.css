@@ -1,0 +1,26 @@
+.mainHome {
+  padding-top: 39px;
+  display: flex;
+  gap: 60px;
+}
+
+.leftHome {
+  width: 363px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rightHome{
+  width: 100%
+}
+
+
+@media(max-width: 1000px){
+  .mainHome{
+    flex-direction: column;
+  }
+  .leftHome{
+    width: 100%;
+  }
+}

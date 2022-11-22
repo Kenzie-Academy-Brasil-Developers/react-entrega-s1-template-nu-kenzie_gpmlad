@@ -1,0 +1,42 @@
+.formHome {
+  padding: 38px 24.5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.formHome input,.formHome select{
+  padding: 13.4px;
+  background-color: var(--color-gray-1);
+  border-radius: 8px;
+  border: none;
+}
+
+.formHome select{
+  margin-bottom: 4.5px;
+  cursor: pointer;
+}
+
+.formHome span{
+  color: var(--color-gray-3);
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.formSection input {
+  margin: 12px 0 4.5px 0;
+}
+
+.gap-1 {
+  gap: 36px;
+}
+
+.halfW{
+  width: 50%;
+}

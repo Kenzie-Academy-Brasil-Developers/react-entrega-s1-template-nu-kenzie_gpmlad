@@ -1,0 +1,29 @@
+.List{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.List ul{
+  display: flex;
+  gap: 16px;
+}
+
+.listSection{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.noData{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+@media(max-width: 400px){
+  .List{
+    flex-direction: column ;
+  }
+}
