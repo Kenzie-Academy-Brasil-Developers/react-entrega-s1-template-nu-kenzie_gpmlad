@@ -22,8 +22,13 @@
   gap: 36px;
 }
 
+.noData img{
+  width: 100%;
+  transition: 1s;
+}
 @media(max-width: 400px){
   .List{
     flex-direction: column ;
+    gap: 26px;
   }
 }
