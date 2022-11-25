@@ -10,7 +10,6 @@ export function Form({listTransactions,setListTransactions}) {
   function submit(event) {
     event.preventDefault()
     setListTransactions([...listTransactions,currentValue])
-    console.log(listTransactions)
   }
 
   return(
@@ -37,7 +36,9 @@ export function Form({listTransactions,setListTransactions}) {
       id='value' 
       type='text'
       value={currentValue.value}
-      onChange={(event) => setCurrentValue({...currentValue, value:(parseFloat(event.target.value))})} 
+      onChange={(event) => {
+        event.target.value = event.target.value.replace(/[^0-9]/g, '')
+        setCurrentValue({...currentValue, value:(!!event.target.value ?parseFloat(event.target.value ): '')})}} 
       placeholder="1"/>
       </div>
 

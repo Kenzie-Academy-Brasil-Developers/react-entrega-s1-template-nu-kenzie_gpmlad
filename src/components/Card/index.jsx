@@ -4,7 +4,6 @@ import './Card.css'
 export function Card({transaction, listTransactions, setListTransactions}) {
   function removeCard(card) {
     const newList = listTransactions.filter(element => element !== card)
-    console.log(newList)
     setListTransactions(newList)
   }
 
